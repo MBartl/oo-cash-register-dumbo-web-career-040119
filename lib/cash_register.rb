@@ -11,6 +11,10 @@ class CashRegister
 
   def add_item(title, price, *quantity)
     @title = title
+    def add_to_total
+      quantity[0].times {@total += price}
+    end
+      
     if quantity[0] != nil
       quantity[0].times {@total += price}
     else
