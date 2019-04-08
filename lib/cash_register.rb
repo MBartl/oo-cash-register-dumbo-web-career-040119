@@ -24,5 +24,6 @@ class CashRegister
       return "The price was reduced by #{discount}%"
     else
       return "Error: There is no discount to apply"
+    end
   
 end
