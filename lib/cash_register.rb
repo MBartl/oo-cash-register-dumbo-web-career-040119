@@ -16,3 +16,5 @@ class CashRegister
     @title = title
     @price = price
   end
+  
+end
