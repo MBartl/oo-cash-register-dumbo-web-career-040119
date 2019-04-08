@@ -21,5 +21,6 @@ class CashRegister
   def apply_discount
     if @discount
       @total *= ((100-@discount)/100)
+      return "The price was reduced by #{discount}%"
   
 end
