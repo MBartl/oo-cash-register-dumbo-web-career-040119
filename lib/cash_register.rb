@@ -10,7 +10,7 @@ class CashRegister
   end
   
   def total
-    binding.pry
+    @total
   end
   
   def add_item(title, price)
