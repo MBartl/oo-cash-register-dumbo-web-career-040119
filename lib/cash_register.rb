@@ -14,7 +14,7 @@ class CashRegister
     @price = price
     if quantity[0]
       quantity[0].times {@total += price}
-      @title << title
+      quantity[0].times {@title << title}
     else
       @total += price
       @title << title
