@@ -2,7 +2,6 @@ require 'pry'
 
 class CashRegister
   
-  @@titles = []
   attr_accessor :total, :discount, :title, :price
 
   def initialize(*discount)
