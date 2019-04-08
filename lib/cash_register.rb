@@ -13,6 +13,8 @@ class CashRegister
     @title = title
     if quantity
       quantity.times {@total += price}
+    else
+      quantity.times {@total += price}
     end
   end
   
