@@ -22,5 +22,7 @@ class CashRegister
     if @discount
       @total *= ((100-@discount)/100)
       return "The price was reduced by #{discount}%"
+    else
+      return "Error: There is no discount to apply"
   
 end
